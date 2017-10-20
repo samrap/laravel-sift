@@ -2,6 +2,8 @@
 
 Sensible key-value query filtering for your Laravel application.
 
+[![Build Status](https://travis-ci.org/samrap/laravel-sift.svg?branch=master)](https://travis-ci.org/samrap/laravel-sift)
+
 Basic example:
 
 ```php
