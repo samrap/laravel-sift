@@ -1,6 +1,6 @@
 <?php
 
-namespace Gigasavvy\Locator\Database\Filters;
+namespace Samrap\Sift;
 
 trait SiftableScope
 {

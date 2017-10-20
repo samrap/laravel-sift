@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit\Database\Filters;
+namespace Tests\Unit;
 
 use Mockery as m;
 use Tests\TestCase;
@@ -13,9 +13,9 @@ class SiftableScopeTest extends TestCase
     /** @test */
     public function itAppliesQueryScope()
     {
-        $model = $this->getMockForTrait('Gigasavvy\Locator\Database\Filters\SiftableScope');
+        $model = $this->getMockForTrait('Samrap\Sift\SiftableScope');
         $query = m::mock('Illuminate\Database\Eloquent\Builder');
-        $filters = m::mock('Gigasavvy\Locator\Database\Filters\QueryFilters');
+        $filters = m::mock('Samrap\Sift\QueryFilters');
         $filters
             ->shouldReceive('apply')
             ->atLeast()

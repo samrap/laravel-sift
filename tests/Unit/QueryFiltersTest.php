@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Unit\Database\Filters;
+namespace Tests\Unit;
 
-use Gigasavvy\Locator\Database\Filters\QueryFilters;
+use Samrap\Sift\QueryFilters;
 use Mockery as m;
 use Tests\TestCase;
 
