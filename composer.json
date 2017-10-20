@@ -1,0 +1,31 @@
+{
+    "name": "samrap/laravel-sift",
+    "description": "Sensible key-value query filtering for your Laravel application.",
+    "keywords": ["filter", "query", "api", "laravel", "eloquent"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Rapaport",
+            "email": "me@samrapdev.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Samrap\\Sift\\": "src/Sift"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "illuminate/database": "^5.5",
+        "illuminate/http": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "mockery/mockery": "^0.9.9"
+    }
+}
